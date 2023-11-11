@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let numbers = new Array(2);
+        let index;
+        let min;
+
+        for (let i = 0; i <= 1; i++) {
+            numbers[i] = Number(prompt('2 ta son kiriting: '));
+        }
+
+        min = numbers[0];
+        index = 0;
+
+        for (let j = 0; j <= 1; j++) {
+            if (min > numbers[j]) {
+                min = numbers[j];
+                index = j;
+            }
+        }
+
+        alert((index + 1) + "-son kichik");
+
+    </script>
+</body>
+
+</html>

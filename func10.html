@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // 2ta odam tug'ilgan yillarini kiritadilar dastur ulardan qaysi biri katta yoki ular teng yoshda ekanliklarini aytsin.
+
+        let year = Number(new Date().getFullYear())
+
+        let year1 = prompt("Birinchi shaxsning tug`ilgan yili:")
+        let year2 = prompt("Ikkinchi shaxsning tug`ilgan yili:")
+
+        if ((year - year1) == (year - year2)) {
+            alert("Birinchi va Ikkinchi shaxslar yoshlari teng");
+        } else if ((year - year1) >= (year - year2)) {
+            alert("Birinchi shaxs yoshi Ikkinchi shaxs yoshidan katta");
+        } else {
+            alert("Ikkinchi shaxs yoshi Birinchi shaxs yoshidan katta");
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a, b, c;
+        let average;
+
+        average = 0;
+        a = Number(prompt('a'));
+        b = Number(prompt('b'));
+        c = Number(prompt('c'));
+        if (a < b && a > b || a > b && a < b) {
+            average = a;
+        } else {
+            if (b < a && b > c || b > a && b < c) {
+                average = b;
+            } else {
+                if (c < a && c > b || c > a && c < b) {
+                    average = c;
+                }
+            }
+        }
+        alert(average);
+
+    </script>
+</body>
+
+</html>

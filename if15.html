@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    let num1, num2, num3;
+    let largestSum, sum1, sum2, sum3, numA, numB;
+    
+    num1 = Number(prompt('num1'));
+    num2 = Number(prompt('num2'));
+    num3 = Number(prompt('num3'));
+    largestSum = 0;
+    numA = 0;
+    numB = 0;
+    sum2 = num1 + num2;
+
+    if (sum2 > largestSum) {
+        largestSum = sum2;
+        numA = num1;
+        numB = num3;
+    }
+
+    sum3 = num2 + num3;
+    
+    if (sum3 > largestSum) {
+        largestSum = sum3;
+        numA = num2;
+        numB = num3;
+    }
+    alert(numA);
+    alert(numB);
+
+    </script>
+</body>
+
+</html>

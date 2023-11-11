@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a, b;
+        let c;
+
+        a = Number(prompt('a'));
+        b = Number(prompt('b'));
+        if (a == b) {
+            a = 0;
+            b = 0;
+        } else {
+            c = a;
+            a = a + b;
+            b = c + b;
+        }
+        alert("A = " + a + " , " + "B = " + b);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let x;
+        let y;
+        let z;
+        let counter;
+        let negativeCounter;
+
+        x = Number(prompt('x'));
+        y = Number(prompt('y'));
+        z = Number(prompt('z'));
+        counter = 0;
+        negativeCounter = 0;
+        if (x > 0) {
+            counter = counter + 1;
+        } else {
+            negativeCounter = negativeCounter + 1;
+        }
+        if (y > 0) {
+            counter = counter + 1;
+        } else {
+            negativeCounter = negativeCounter + 1;
+        }
+        if (z > 0) {
+            counter = counter + 1;
+        } else {
+            negativeCounter = negativeCounter + 1;
+        }
+        alert("musbatlar: " + counter);
+        alert("manfiylar: " + negativeCounter);
+
+    </script>
+</body>
+
+</html>
